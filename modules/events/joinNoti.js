@@ -22,25 +22,48 @@ const vid = (
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("চলে এসেছি আমি Romim Picci তোমাদের মাঝে🤭", event.threadID, () => api.sendMessage({body:`${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
-<------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+    return api.sendMessage("➣চলে এসেছি আমি R4M1M PICCI বট🤍", event.threadID, () => api.sendMessage({body:`আসসালামু আলাইকুম☘️\n
+<------------------------------>\n 
+BOT CONNECTED SUCCESFUL !!!\n 
 
-APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)\n${global.config.PREFIX}photoxy (no.) (name)\n${global.config.PREFIX}textpro (no.) (name)
-<------------------------------>
-AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
+ALWAYS MY KING ROMIM 👑!!!\n
+<------------------------------>\n
+<^^^^^^^^ABBU ROMIM^^^^^^^^^^^^^>\n
+<<<<<------------------------------>>>>>\n
+AND FOR ANY REPORT OR CONTACT BOT DEVELOPER\n\n
 
-DEVELOPER : ROMIM- 
+«========OWNER:★★★𝗥𝗢𝗠𝗜𝗠 𝗔𝗛𝗠𝗘𝗗★★★=========»\n
 
-🟣Facebook Account Link: 
+«★★★★★★★★★★★✓★★★★★★★★★★★★★★★★»\n
 
-https://www.facebook.com/profile.php?id=100079631077064
+   [ BOT NAME:🅁🄾🄼🄸🄼 🄱🄾🅃 ]\n
+   
+<--------------------------------------------->\n
 
-🔵WHATSAPP NUMBER: wa.me/+8801822&&&&&&
+       [ BOT PREFIX:=[ * ]\n
+<------------------------------->\n
 
-🟢SUPPORT EMAIL: tromim288@gmail.com`, attachment: vid
+  [🔵Facebook:
+
+Www.facebook.com/100087320919723⚪]\n
+___________________________\n
+_________★★★★★__________\n
+***************************
+   ⚪«YOUTUBE--=
+https://youtube.com/@MIXxA_Ns?»
+†»»»»»»»»»»»»»»»»»»»»»»»»»»»»»†\n\n           
+
+×××××××××××××“„«“»”₱№×××××××××××××××××✓✓\n
+  «♠️TIKTOK:=!!!!=
+https://www.tiktok.com/@its_me_romim07?»
+×××××××××××××××××××××××××××××××××××××××✓✓\n
+
+«★★★★★★★★★★★★★★★★★★★★»
+🟡Email: redwanboss195@gmail.com
+«★★★★★★★★★★★★★★★★★★★★»\n\n
+
+<=================================>
+   «🟢Messenger GROUP=!!!!!!!!                     https://m.me/j/Abb7wbYHQa94WIoQ/`, attachment: vid
     } ,threadID));
   }
   else {
@@ -67,7 +90,7 @@ api.getUserInfo(parseInt(userID), (err, data) => {
         memLength.push(participantIDs.length - i++);
 memLength.sort((a, b) => a - b);
 
-      (typeof threadData.customJoin == "undefined") ? msg = "Hello {uName}\nWelcome to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy" : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = "༆-✿「༒𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴   ｣  ༊࿐\n•—» 🤍✖‿✖•𝙾𝚆𝙽𝙴𝚁:- 𝚁𝙾𝙼𝙸𝙼 𝙰𝙷𝙼𝙴𝙳🤍«—•\n\n╭•┄┅════❁𝗥𝗢𝗠𝗜𝗠 𝗔𝗛𝗠𝗘𝗗❁════┅┄•╮\n\n🦋🍀ツ●───༊᭄࿐❥\n🤍:)🥀 ♡●আঁপঁনাঁকেঁ গ্রুঁপেঁরঁ সঁবাঁরঁ পঁক্ষঁ থেঁকেঁ শুঁভেঁচ্ছাঁ亗ツ●───༊᭄࿐❥\n\n╰•┄┅════❁ ༺𝙰𝙽𝙳 𝙰𝙶𝙰𝙸𝙽 𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴 ▓࿐ ❁════┅┄•╯" : msg = threadData.customJoin;
       msg = msg
       .replace(/\{uName}/g, nameArray.join(', '))
       .replace(/\{type}/g, (memLength.length > 1) ?  'you' : 'Friend')
