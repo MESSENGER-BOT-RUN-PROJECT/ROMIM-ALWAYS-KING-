@@ -41,7 +41,7 @@ module.exports.config = {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `🟡${Romim}//A P I  R O M I M📛`,
+      body: `🟡//A P I  R O M I M📛`,
       attachment: t
     }, a.threadID, a.messageID)
   }
