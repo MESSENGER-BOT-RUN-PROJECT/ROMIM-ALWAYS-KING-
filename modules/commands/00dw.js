@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Shaon Ahmed",
   description: "All  Video Downloader",
+  usePrefix:false,
   commandCategory: "Downloader",
   usages: "[video link]",
   cooldowns: 0
