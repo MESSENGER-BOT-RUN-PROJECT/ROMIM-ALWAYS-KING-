@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Shaon Ahmed and modified by Romim🤍",
   description: "Random video",
+  usePrefix:false,
   commandCategory: "short video",
   cooldowns: 5,
   dependencies: {
