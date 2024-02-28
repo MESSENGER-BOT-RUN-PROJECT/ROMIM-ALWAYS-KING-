@@ -41,7 +41,7 @@ module.exports.config = {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `🟡//A P I  R O M I M📛`,
+      body: `꧁༻★🔥★⋆𝙹𝙰𝙽 𝙰𝙸 𝙽𝙰𝚆 𝚃𝙾𝙼𝙰𝚁 𝚅𝙸𝙳𝙴𝙾 亗👑`,
       attachment: t
     }, a.threadID, a.messageID)
   }
