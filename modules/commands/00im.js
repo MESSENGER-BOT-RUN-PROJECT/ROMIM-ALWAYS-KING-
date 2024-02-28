@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "ROMIM",
     description: "Lấy link ảnh imgur",
+	usePrefix:true,
     commandCategory: "Công cụ",
     usages: "[reply]",
     cooldowns: 5,
