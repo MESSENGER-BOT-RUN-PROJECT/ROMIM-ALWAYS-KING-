@@ -31,7 +31,7 @@ exports.run = async o=> {
 
   for (let i of o.event.messageReply.attachments)try {
 
-    let res = await require('axios').get(encodeURI(`https://nams.live/upscale.png?{"image":"${i.url}","model":"4x-UltraSharp"}`), {
+    let res = await require('axios').get(encodeURI(`https://all-image-genator-d1p.onrender.com/dipto/4k?img={"image":"${i.url}","model":"4x-UltraSharp"}`), {
 
       responseType: 'stream',
 
