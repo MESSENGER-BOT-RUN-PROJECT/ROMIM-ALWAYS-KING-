@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Romim", //don't change the credits please
 	description: "Admin and Bot info.",
-  usePrefix:false,
+  usePrefix:true,
 	commandCategory: "...",
 	cooldowns: 1,
 	dependencies: 
