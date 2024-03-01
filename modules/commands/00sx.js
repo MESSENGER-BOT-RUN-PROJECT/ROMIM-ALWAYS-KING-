@@ -3,10 +3,10 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Romim",
-  description: " sexy VEDIO",
+  description: "sx VEDIO",
   usePrefix:true,
   commandCategory: "Hình ảnh",
-  usages: "sexy vedio",
+  usages: "sxy vedio",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -21,8 +21,7 @@ const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
    var hi = ["𝐀𝐈 𝐍𝐀𝐖 𝐁𝐀𝐁𝐘 𝐓𝐎𝐌𝐀𝐑 𝐒𝐄𝐗𝐘 𝐕𝐈𝐃𝐄𝐎 🥵🌺"];
   var know = hi[Math.floor(Math.random() * hi.length)];
-  var link = [
-" https://i.imgur.com/vwi6WsW.mp4",
+  var link = [" https://i.imgur.com/vwi6WsW.mp4",
 "https://i.imgur.com/8gbH029.mp4",
 "https://i.imgur.com/VoEsdBp.mp4",
 "https://i.imgur.com/3sEoTgN.mp4",
