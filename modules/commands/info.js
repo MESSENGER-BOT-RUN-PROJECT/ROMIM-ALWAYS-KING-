@@ -2,9 +2,9 @@ module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "joshua", 
+	credits: "ROMIM", 
 	description: "Admin and Bot info.",
-	usePrefix: true,
+	usePrefix:true,
   commandCategory: "...",
 	cooldowns: 1,
 	dependencies: 
@@ -24,14 +24,18 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【HH:mm:ss】");
-var link = ["https://i.imgur.com/ehYPDpQ.jpeg", "https://i.imgur.com/B0frbAC.jpeg", "https://i.imgur.com/0m3It45.jpeg", "https://i.imgur.com/CSzXT6Z.jpeg", "https://i.imgur.com/bTkhVr5.jpeg", "https://i.imgur.com/5w06o2L.jpeg", "https://i.imgur.com/sjFDhzh.jpeg", "https://i.imgur.com/JdpuzpH.jpeg"];
-var callback = () => api.sendMessage({body:`== 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 ==\n\n
-𝖡𝗈𝗍 𝗇𝖺𝗆𝖾: ${global.config.BOTNAME}
-𝖡𝗈𝗍 𝗉𝗋𝖾𝖿𝗂𝗑 ${global.config.PREFIX}
-𝖡𝗈𝗍 𝖮𝗐𝗇𝖾𝗋: ${global.config.BOTOWNER}
-𝖥𝖡𝗅𝗂𝗇𝗄: ${global.config.OWNERLINK}
+var link = ["https://i.imgur.com/SIzhwdz.mp4", "https://i.imgur.com/wuDrUJ4.mp4", "https://i.imgur.com/NZuQYym.mp4"];
+var callback = () => api.sendMessage({body:`★★★★★★★★★★★★★★\n꧁☠︎ᴮᴼᵀ ᴵᴺᶠᴼᴿᴹᴬᵀᴵᴼᴺ ♡●\n
+༒ᴮᴼᵀ ᴺᴬᴹᴱ 💎ღ: 🅁🄾🄼🄸🄼 🄱🄾🅃\n
+❀♰♛BOT PREFIX 亗: ${global.config.PREFIX}\n
+꧁ 𒈞𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 ヅ: ʀᴏᴍɪᴍ ᴀʜᴍᴇᴅ\n
+༒𝙵𝙱 𝙻𝙸𝙽𝙺⦖:https://www.facebook.com/100087320919723\n\n
 𝖳𝗈𝖽𝖺𝗒 𝗂𝗌: ${juswa} 
-𝖡𝗈𝗍 𝗂𝗌 𝗋𝗎𝗇𝗇𝗂𝗇𝗀 ${hours}:${minutes}:${seconds}\n━━━━━━━━━━━━━━
-\nHi I'm ${global.config.BOTOWNER}, 𝗍𝗁𝖺𝗇𝗄𝗌 𝖿𝗈𝗋 𝗎𝗌𝗂𝗇𝗀 𝗍𝗁𝗂𝗌  𝖻`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
+𝖡𝗈𝗍 𝗂𝗌 𝗋𝗎𝗇𝗇𝗂𝗇𝗀 ${hours}:${minutes}:${seconds}\n━━━━━━━━━━━━━━\n★★★★★★★★★★★★★★
+\n🤍꧁⁣༒𓆩༒𝚃𝙷𝙰𝙽𝙺'𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚁𝙾𝙼𝙸𝙼 𝙱𝙾𝚃༒ 亗\n亗𝚁𝙾𝙼𝙸𝙼亗___⓫⓻➎___/ :*
+⓫➎⓫⓫⓫⓫⓫⓫⓫⓫ :*
+❹⓼______〤 _____❽⓾ ;*
+⓫➎⓫⓫⓫⓫⓫⓫⓫⓫ ;*
+◙◙____❷⓿⓶❹____:* :* 3:)`,attachment: fs.createReadStream(__dirname + "/cache/juswa.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.mp4")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.mp4")).on("close",() => callback());
    };
